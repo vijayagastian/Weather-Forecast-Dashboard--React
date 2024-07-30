@@ -1,0 +1,50 @@
+/* src/weather.css */
+
+.bg-custom {
+    background-image: url('./bg-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Set height as needed */
+  }
+  
+.card {
+    background-color: #f8f9fa;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: center;
+  }
+  
+  input.form-control {
+    max-width: 70%;
+  }
+  
+  button.btn {
+    margin-left: 10px;
+  }
+  
+  .row {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 576px) {
+    .card {
+      margin-bottom: 15px;
+    }
+  
+    input.form-control {
+      max-width: 100%;
+    }
+  
+    button.btn {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+  

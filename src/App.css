@@ -1,0 +1,40 @@
+body {
+ 
+  background-size: cover; /* Ensure the image covers the entire viewport */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center center; /* Center the image */
+  background-attachment: fixed; /* Ensure the background image stays fixed during scrolling */
+  transition: background-color 0.5s, color 0.5s;
+  color: #0000; /* Default text color */
+}
+
+/* Light Theme */
+.light {
+  background-color: #bbdefb;
+  color: #000;
+}
+
+/* Dark Theme */
+.dark {
+  background-color:#424242;
+  color: #fff;
+}
+
+
+header, footer {
+  transition: background-color 0.5s, color 0.5s;
+}
+
+header.dark-theme, footer.dark-theme {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.card {
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.card.dark-theme {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
