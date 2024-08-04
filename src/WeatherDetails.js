@@ -58,25 +58,6 @@ function WeatherDetails() {
     return <div>Loading...</div>;
   }
 
-  // Dummy data for today's forecast
-  // const todaysForecast = [
-  //   { time: '06:00 AM', temp: '22°C', weather: 'Clear' },
-  //   { time: '12:00 PM', temp: '28°C', weather: 'Sunny' },
-  //   { time: '06:00 PM', temp: '26°C', weather: 'Partly Cloudy' },
-  //   { time: '09:00 PM', temp: '24°C', weather: 'Clear' },
-  // ];
-
-  // // Dummy data for weekly forecast
-  // const weeklyForecast = [
-  //   { day: 'Monday', temp: '25°C', weather: 'Sunny' },
-  //   { day: 'Tuesday', temp: '27°C', weather: 'Cloudy' },
-  //   { day: 'Wednesday', temp: '26°C', weather: 'Rainy' },
-  //   { day: 'Thursday', temp: '28°C', weather: 'Sunny' },
-  //   { day: 'Friday', temp: '29°C', weather: 'Partly Cloudy' },
-  //   { day: 'Saturday', temp: '30°C', weather: 'Sunny' },
-  //   { day: 'Sunday', temp: '31°C', weather: 'Sunny' },
-  // ];
-
   return (
     <>
       <div className="">
